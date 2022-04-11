@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body
+    background-color: #f5f6fa
+    font-size 14px
+    font-family: 'Roboto', sans-serif;
+
+h1,h2,h3,h4,h5,ul,body, html
+    padding: 0px
+    margin: 0px
+
+.mtop16
+    margin-top: 16px
+
+.wrapper
+    min-height: 100vh
+    overflow hidden
+    .col1
+        float left
+        position relative
+        z-index 999
+        width 17%
+    .col2
+        float left
+        width 83%
+.sidebar
+    background-color: #fff
+    min-height: 100vh
+    .section-top
+        background-color: #f35d4c
+        box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15)
+    .logo
+        display: block
+        margin 0px auto
+        padding-top: 24px
+        width: 60%
+    .user
+        color #fff !important
+        padding:  16px
+        a
+            color #fff
+            font-size: 1.2em
+            white-space: nowrap
+    .main
+        margin-top 8px
+        ul
+            li
+                margin-bottom 4px
+                a
+                    color #8998AC !important
+                    display: block
+                    font-size: 1.1em
+                    padding:  12px 16px
+                    text-decoration: none
+                    i
+                        margin-right: 10px
+                    &:hover
+                        background-color: #f35d4c
+                        box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15)
+                        color #fff !important
+                        text-decoration: none
+                a.active
+                    background-color: #f35d4c
+                    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15)
+                    color #fff !important
+                    text-decoration: none
+
+.navbar
+    background-color: #f35d4c
+    a
+        color #fff !important
+
+.page
+    padding-top: 16px
+    padding-bottom: 16px
+    .breadcrumb
+        font-size: 14px
+        background-color: #fff
+        box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.10) !important
+        .breadcrumb-item
+            &:before
+                margin-top 8px
+                font-size: 14px
+            a
+                color: #f35d4c !important
+                &:hover
+                    text-decoration: none !important
+    .panel
+        background-color: #fff
+        border-radius: 6px
+        border-bottom: 2px solid #f35d4c
+        width: 100%
+        .header
+            border-bottom: 1px solid #e8e8e8
+            h2.title
+                display: inline-block
+                color #19213d
+                font-size: 1.1em
+                padding: 12px 16px
+            ul
+                float: right 
+                display inline-block
+                margin-right: 12px
+                li
+                    display inline-block
+                    a
+                        padding: 11px
+                        display: inline-block
+                        text-decoration: none
+                        color #333
+                        i
+                         color: #f87f3e
+                        &:hover
+                            background-color: #f6f6f6
+                            color: #222
+                            text-decoration: none
+                    ul
+                        display none 
+                    &:hover
+                        ul
+                            display: block
+
+        .inside
+            .form_search
+                display: none;
+                margin-bottom: 16px 
+                .form-control,.form-select
+                    &:focus
+                    &:active
+                        outline: none
+                        box-shadow: none
+                .btn
+                    width: 100%
+                    background-color: #f87f3e
+                    border: 0px
+                    &:hover
+                        background-color: #ee6c26
+                        border: 0px
+            #dropdownMenuButton1
+                width: 100%
+                background-color: #f87f3e
+                border: 0px
+                &:hover
+                    background-color: #ee6c26
+                    border: 0px
+            padding: 16px
+            .nav
+                .nav-link
+                    color #f87f3e !important
+                    border 1px solid #f87f3e
+                    margin-right: 8px
+                    border-radius: 3px
+                    &:hover
+                        background-color: #f35d4c
+                        box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15)
+                        color #fff !important
+            .btns
+                .btn-primary
+                    background-color: #f87f3e
+                    border: 0px
+                    &:hover
+                        background-color: #ee6c26
+                        border: 0px
+
+
+.opc
+    a
+        display: inline-block
+        padding: 8px 12px
+        border-radius: 4px
+        border 1px solid #dedede
+        color: #f35d4c
+
+.product_gallery
+    overflow: hidden;
+    .btn_submit
+        width: 100%
+        display: block
+        margin-right: 1%
+        a
+            width: 100%
+            display: block
+            text-align: center
+            font-size: 1.5em
+            color: #f35d4c
+            padding: 12px
+            border: 1px dashed #666
+            border-radius: 4px
+            &:hover
+                background-color: #ee6c26
+                color: #fff
+                border: 1px solid #ffffff00
+    .tumbs
+        overflow: hidden
+        margin-top: 16px
+        .tumb
+            float: left
+            margin-top: 10px
+            position relative
+            width: 48%
+            margin-top: 10px
+            a
+                display: inline-block
+                background-color: rgba(0, 0, 0, 0.3)
+                color #f35d4c
+                padding: 6px 10px
+                position: absolute 
+                border-radius: 50%
+                bottom: 8px
+                right: 8px
+            image
+                width: 100%
+                border-radius: 4px
+            &:nth-child(odd)
+                margin-right 4%
+
+.page_user
+    .mini_profile
+        .avatar
+            display: block
+            margin: 0px auto
+            border-radius: 50%
+            width: 80px
+        .info
+            span
+                display: block
+                width: 100%
+                font-size 1.2em
+            span.title
+                font-weight: bold
+                margin-top 16px
+        .btn
+            width: 100%
+            margin-top: 16px
+    

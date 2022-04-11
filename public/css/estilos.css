@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bowlby One SC', cursive;
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+
+.navbar {
+    padding: 15px 10px;
+    background: #fff;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 40px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-btn {
+    box-shadow: none;
+    outline: none !important;
+    border: none;
+}
+
+
+body{
+    height: 100vh;
+    background: rgb(131,58,180);
+    background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(196,78,78,1) 50%, rgba(75,14,82,1) 100%);
+}
+
+#content {
+    width: 100%;
+    padding: 20px;
+    min-height: 100vh;
+    transition: all 0.3s;
+}
+
+.login{
+    height: 550px;
+    position: absolute;
+}
+.formulario{
+    width: 400px;
+    position: absolute;
+    background-color: #fff;
+    border: 5px solid #8f4790;
+    border-radius: 10px;
+    padding: 30px 60px;
+    top: 290px;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+}
+.formulario input,label,button{
+    display: block;
+    width: 100%;
+    margin: 5px 0;
+}
+.formulario input{
+    height: 40px;
+    border: 2px solid #8f4790;
+    border-radius: 10px;
+    padding: 0 8px;
+}
+.formulario button{
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    height: 40px;
+    background-color: #824283;
+    box-shadow: 1px 1px 2px #000;
+    color: #fff;
+}
+.formulario button:hover{
+    background-color: #8f4790;
+}
+
+ion-icon {
+    font-size: 30px;
+  }
+
+.container {
+    display: flex;
+    align-content:center;
+    justify-content:center;
+}
+
+.tittle {
+    font-size: 40px;
+    text-align: center;
+}
+
+.no{
+    display: flex;
+    align-content:center;
+    justify-content:center;
+}
