@@ -6,16 +6,18 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
-class Product extends Model
+class Producto extends Model
 {
-    use HasFactory,SoftDeletes;
+    use HasFactory, SoftDeletes;
 
-    protected $table = 'products';
+    protected $table = 'productos';
 
-    public function getCategory(){
-        return $this->hasOne(Category::class,'id','category_id');
+    public function getCategory()
+    {
+        return $this->hasOne(Category::class, 'id', 'category_id');
     }
-    public function getGallery(){
-        return $this->hasMany(PGallery::class,'product_id','id');
+    public function getGallery()
+    {
+        return $this->hasMany(PGallery::class, 'product_id', 'id');
     }
 }
